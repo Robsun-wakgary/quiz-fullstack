@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="start-screen" class="screen active">
+      <h1> Quiz</h1>
+      <input id="name-input" placeholder="Enter your name" />
+      <button id="start-btn">Start Quiz</button>
+      <h2>Leaderboard</h2>
+      <ol id="leaderboard"></ol>
+    </div>
+
+    <div id="quiz-screen" class="screen">
+      <h2 id="question-text"></h2>
+      <div id="answer-buttons"></div>
+    </div>
+
+    <div id="result-screen" class="screen">
+      <h2>Quiz Complete</h2>
+      <p id="score-text"></p>
+      <button id="restart-btn">Try Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
