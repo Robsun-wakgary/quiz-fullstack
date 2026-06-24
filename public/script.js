@@ -95,6 +95,7 @@ async function selectAnswer(selectedIndex, clickedBtn) {
     score++;
   } else {
     clickedBtn.classList.add("wrong");
+    alert("Wrong!");
   }
 
   setTimeout(async () => {
